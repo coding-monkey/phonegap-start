@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.hello-world"
-        version   = "2.2.0">
+        version   = "2.7.0">
     <name>Hello World</name>
 
     <description>
@@ -22,7 +22,7 @@
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/notification"/>
 
-    <preference name="phonegap-version" value="2.2.0" />
+    <preference name="phonegap-version" value="2.7.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
@@ -52,4 +52,10 @@
     <gap:splash src="res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
-</widget>
+
+	<gap:plugin name="FacebookConnect">
+   		<param name="APP_ID" value="587965627914678" />
+   		<param name="APP_NAME" value="PhoneGap Tutorial" />
+ 	</gap:plugin>
+ 	
+ </widget>
