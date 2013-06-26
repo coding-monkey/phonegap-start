@@ -148,6 +148,9 @@
                                       alert('Device is ready! Make sure you set your app_id below this alert.');
                                       FB.init({ appId: "587965627914678", nativeInterface: CDV.FB, useCachedDialogs: false });
                                       document.getElementById('data').innerHTML = "";
+                                      login();
+                                      FB.api('/me', function(response) {
+                                    	  document.getElementById('data').innerHTML = 'Good to see you, ' + response.name + '.';
                                       } catch (e) {
                                       alert(e);
                                       }
