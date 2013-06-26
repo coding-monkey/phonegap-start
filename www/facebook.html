@@ -151,6 +151,7 @@
                                       login();
                                       FB.api('/me', function(response) {
                                     	  document.getElementById('data').innerHTML = 'Good to see you, ' + response.name + '.';
+                                      });
                                       } catch (e) {
                                       alert(e);
                                       }
