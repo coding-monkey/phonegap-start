@@ -2,28 +2,11 @@
 
 > A Hello World application built with PhoneGap
 
-## PhoneGap Build
-
-Create a new app with the following repository:
-
-    https://github.com/phonegap/phonegap-start.git
-
-## Run Application
-
-    /www/index.html
-
-## Run Tests
-
-    /www/spec.html
-
-## Issues and Pull Requests
-
 This application is a modification of the [Apache Cordova Hello World][1].
 
-For issues with __the application__, please submit an issue or pull request
-to the [Apache Cordova source code][1].
+## Requirements
 
-For issues with __the PhoneGap Build integration__, please submit
-an issue or pull request to this project.
+[Eclipse][2] Download and install the Eclipse IDE. I am running Eclipse IDE for Java EE Developers. It should come with EGit to allow access to this git repository.
 
 [1]: https://github.com/apache/cordova-app-hello-world
+[2]: http://www.eclipse.org/downloads/
