@@ -12,3 +12,4 @@ This application is a modification of the [Apache Cordova Hello World][1].
 [1]: https://github.com/apache/cordova-app-hello-world
 [2]: http://www.eclipse.org/downloads/
 [3]: https://build.phonegap.com/
+
