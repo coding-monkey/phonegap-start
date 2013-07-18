@@ -53,7 +53,7 @@
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
 
-	<gap:plugin name="FacebookConnect">
+	<gap:plugin name="com.phonegap.plugins.facebookconnect">
    		<param name="APP_ID" value="587965627914678" />
    		<param name="APP_NAME" value="PhoneGap Tutorial" />
  	</gap:plugin>
