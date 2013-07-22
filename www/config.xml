@@ -58,4 +58,6 @@
    		<param name="APP_NAME" value="PhoneGap Tutorial" />
  	</gap:plugin>
  	
+ 	<gap:plugin name="com.phonegap.plugins.childbrowser" />
+ 	
  </widget>
