@@ -27,12 +27,15 @@ function startApp() {
 	var oAuth = liquid.helper.oauth;
 	
     $("#access-code").click(function(event) {
+    	alert('hello world 2');
         liquid.helper.oauth.authorize(authorizeWindowChange);
         event.preventDefault();
     });
+	alert('hello world 3');
 
     
     if (oAuth.isAuthorized()) {
+    	alert('hello world 4');
     	/* Start Page TaskList */
     	startPageTaskList();
     }
