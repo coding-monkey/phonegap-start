@@ -47,14 +47,18 @@
 	    */
 	   loadGapi : function(callback) {
 		   var $this = model.tasks;
-		   
+			alert('hello  world 7');
+
 		   if ($this.isGapiLoaded) {
-			   callback();		   
+				alert('hello  world 8');
+   callback();		   
 		   }
 		   else {
-			   /* load the google api and then invoke callback */
+				alert('hello  world 9');
+   /* load the google api and then invoke callback */
 			   gapi.client.load('tasks', 'v1', function() {
-				   		$this.isGapiLoaded = true;
+					alert('hello  world a');
+   		$this.isGapiLoaded = true;
 				   		if (callback) {
 				   			callback();
 				   		}
@@ -80,7 +84,7 @@
 			alert('hello  world 5');
 
 		   liquid.helper.oauth.getAccessToken(function(tokenObj) {
-				alert('hello  world 6');
+				alert('hello world 6');
    
 			   console.log('Access Token >> ' + tokenObj.access_token);
 			   /* at first set the access Token */
