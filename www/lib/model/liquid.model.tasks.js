@@ -54,7 +54,7 @@
    callback();		   
 		   }
 		   else {
-				alert('hello  world 9');
+				alert('hello world 9');
    /* load the google api and then invoke callback */
 			   gapi.client.load('tasks', 'v1', function() {
 					alert('hello  world a');
