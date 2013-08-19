@@ -54,7 +54,7 @@
    callback();		   
 		   }
 		   else {
-				alert('hello  world 9');
+				alert('hello world 9');
    /* load the google api and then invoke callback */
 			   gapi.client.load('tasks', 'v1', function() {
 					alert('hello  world a');
@@ -87,11 +87,13 @@
 				alert('hello world 6');
    
 			   console.log('Access Token >> ' + tokenObj.access_token);
-			   /* at first set the access Token */
+				alert('hello world 6a');
+ /* at first set the access Token */
 				gapi.auth.setToken({
 					access_token: tokenObj.access_token
 				});
-				
+				alert('hello world 6b');
+
 				$this.loadGapi(function() {
 					var request = gapi.client.tasks.tasks.list({
 					  	tasklist: $this.tasklistId, // tasklist id
