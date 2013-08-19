@@ -87,7 +87,7 @@
 				alert('hello world 6');
    
 			   console.log('Access Token >> ' + tokenObj.access_token);
-				alert('hello world 6a');
+				alert('hello  world 6a');
  /* at first set the access Token */
 				gapi.auth.setToken({
 					access_token: tokenObj.access_token
