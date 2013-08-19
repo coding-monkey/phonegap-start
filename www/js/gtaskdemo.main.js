@@ -35,7 +35,7 @@ function startApp() {
 
     
     if (oAuth.isAuthorized()) {
-    	alert('hello world 4');
+    	alert('hello  world 4');
     	/* Start Page TaskList */
     	startPageTaskList();
     }
