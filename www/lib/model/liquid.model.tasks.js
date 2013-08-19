@@ -80,7 +80,7 @@
 			alert('hello  world 5');
 
 		   liquid.helper.oauth.getAccessToken(function(tokenObj) {
-				alert('hello  world 6');
+				alert('hello world 6');
    
 			   console.log('Access Token >> ' + tokenObj.access_token);
 			   /* at first set the access Token */
